@@ -31,10 +31,13 @@ b{margin-bottom:15px;font-size:30px;}
     display: flex;
     justify-content: center;
     align-items: center;
-    background: goldenrod;
     border-radius: 20%;
     border: 1px solid salmon;
     color: brown;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .actions {
